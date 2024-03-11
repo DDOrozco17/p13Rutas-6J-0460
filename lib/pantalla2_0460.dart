@@ -10,7 +10,7 @@ class Pantalla2_0460 extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Pantalla 2 Diaz0460'),
-        backgroundColor: Colors.blueGrey,
+        backgroundColor: Colors.lime,
       ),
       body: Center(
         child: Text(
@@ -18,6 +18,5 @@ class Pantalla2_0460 extends StatelessWidget {
         ),
       ),
     );
-    ;
   }
 }

@@ -10,7 +10,7 @@ class PantallaIni_0460 extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text("Pantalla Inicial Diaz"),
-        backgroundColor: Colors.blueGrey,
+        backgroundColor: Colors.amber,
       ),
       body: Center(
           child: Column(

@@ -10,17 +10,20 @@ class Pantalla1_0460 extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Pantalla 1 Diaz0460'),
-        backgroundColor: Colors.blueGrey,
+        backgroundColor: Colors.cyanAccent,
       ),
       body: Center(
         child: Column(children: [
           ElevatedButton(
-            onPressed: () {},
-            child: const Text("Pantalla1"),
+            onPressed: () {
+              Navigator.pushNamed(
+                  context, "/Pantalla2_0460"); // Cambiado a Pantalla2_0460
+            },
+            child: const Text(
+                "Mover a pantalla 2"), // Cambiado a "Mover a pantalla 2"
           )
         ]),
       ),
     );
-    ;
   }
 }

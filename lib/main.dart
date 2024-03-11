@@ -17,7 +17,7 @@ class MiApp0460 extends StatelessWidget {
         "/": (context) => PantallaIni_0460(),
         "/Pantalla1_0460": (context) => Pantalla1_0460(),
         "/Pantalla2_0460": (context) => Pantalla2_0460(),
-      }, //fin rutas paginas
-    ); //fin material
-  } //fin widgets
-} //fin app
+      },
+    );
+  }
+}
